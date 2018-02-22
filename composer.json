@@ -4,6 +4,8 @@
     "require": {
         "php": "^7.0.8",
         "ext-iconv": "*",
+        "friendsofsymfony/rest-bundle": "^2.3",
+        "jms/serializer-bundle": "^2.3",
         "symfony/console": "^3.4",
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^3.4",
@@ -52,7 +54,7 @@
     "extra": {
         "symfony": {
             "id": "01C6ZD9E6AGXR3TN4GJBRT57Z2",
-            "allow-contrib": false
+            "allow-contrib": true
         }
     }
 }
