@@ -9,7 +9,7 @@ class PingController
 {
     /**
      * @Rest\Get(path="/api/ping", name="ping")
-     * @Rest\View()
+     * @Rest\View(serializerGroups={"ping"})
      */
     public function getPingAction(): PingDto
     {
