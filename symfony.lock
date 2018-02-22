@@ -164,8 +164,23 @@
     "symfony/templating": {
         "version": "v3.4.4"
     },
+    "symfony/twig-bridge": {
+        "version": "v3.4.4"
+    },
+    "symfony/twig-bundle": {
+        "version": "3.3",
+        "recipe": {
+            "repo": "github.com/symfony/recipes",
+            "branch": "master",
+            "version": "3.3",
+            "ref": "f75ac166398e107796ca94cc57fa1edaa06ec47f"
+        }
+    },
     "symfony/yaml": {
         "version": "v3.4.4"
+    },
+    "twig/twig": {
+        "version": "v2.4.4"
     },
     "willdurand/jsonp-callback-validator": {
         "version": "v1.1.0"

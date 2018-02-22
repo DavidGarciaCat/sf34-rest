@@ -11,6 +11,7 @@
         "symfony/flex": "^1.0",
         "symfony/framework-bundle": "^3.4",
         "symfony/lts": "^3",
+        "symfony/twig-bundle": "^3.4",
         "symfony/yaml": "^3.4"
     },
     "require-dev": {
