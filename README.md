@@ -77,7 +77,7 @@ docker exec -it sf34_php_1 bash
 
 Given Nginx runs on port 80, you can browse your own local environment (http://localhost/api/ping) to verify if the installation worked, where you should see the following output:
 
-```javascript
+```json
 {
     "ping": "pong"
 }
