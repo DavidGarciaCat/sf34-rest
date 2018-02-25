@@ -3,7 +3,8 @@ version: '2'
 services:
 
   nginx:
-    image: nginx:1.12
+    build:
+      context: ./Docker/Config/Nginx
     ports:
       - 80:80
     volumes_from:
@@ -24,7 +25,8 @@ services:
       - database
 
   database:
-    image: mysql:5.5
+    build:
+      context: ./Docker/Config/MySQL
     ports:
       - 3306:3306
     environment:
