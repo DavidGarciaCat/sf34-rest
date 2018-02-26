@@ -4,6 +4,8 @@
     "require": {
         "php": "^7.0.8",
         "ext-iconv": "*",
+        "doctrine/doctrine-bundle": "^1.8",
+        "doctrine/orm": "^2.5",
         "friendsofsymfony/rest-bundle": "^2.3",
         "jms/serializer-bundle": "^2.3",
         "sensio/framework-extra-bundle": "^5.1",

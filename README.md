@@ -73,6 +73,12 @@ So you can run commands for a given container, like run the container's shell:
 docker exec -it sf34_php_1 bash
 ```
 
+Or you can use it to generate your own database, that will be used through your database connection:
+
+```bash
+docker exec -it sf34_php_1 php /code/bin/console doctrine:database:create --if-not-exists
+```
+
 ## How to access to the API endpoints
 
 Given Nginx runs on port 80, you can browse your own local environment (http://localhost/api/ping) to verify if the installation worked, where you should see the following output:
