@@ -5,6 +5,7 @@ namespace App\Controller\API\Miscellaneous;
 use App\DTO\Miscellaneous\Environment\EnvironmentDto;
 use FOS\RestBundle\Controller\Annotations as Rest;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpKernel\Kernel;
 
 class EnvironmentController
 {
@@ -20,7 +21,8 @@ class EnvironmentController
     {
         return new EnvironmentDto(
             $request->server->get('SERVER_SOFTWARE'),
-            phpversion()
+            phpversion(),
+            Kernel::VERSION
         );
     }
 }

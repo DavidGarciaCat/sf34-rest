@@ -26,14 +26,24 @@ class EnvironmentDto
     public $phpVersion;
 
     /**
+     * @var string
+     *
+     * @Serializer\Expose()
+     * @Serializer\Groups({"environment"})
+     */
+    public $symfonyVersion;
+
+    /**
      * EnvironmentDto constructor.
      *
      * @param string $webServerVersion
      * @param string $phpVersion
+     * @param string $sfVersion
      */
-    public function __construct(string $webServerVersion, string $phpVersion)
+    public function __construct(string $webServerVersion, string $phpVersion, string $sfVersion)
     {
         $this->webServerVersion = $webServerVersion;
         $this->phpVersion = $phpVersion;
+        $this->symfonyVersion = $sfVersion;
     }
 }
