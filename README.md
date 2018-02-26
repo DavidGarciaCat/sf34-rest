@@ -89,12 +89,13 @@ Given Nginx runs on port 80, you can browse your own local environment (http://l
 }
 ```
 
-Or you can browse the Environment endpoint (http://localhost/api/environment) to check the installed versions of Nginx and PHP, where you should see an output like this:
+Or you can browse the Environment endpoint (http://localhost/api/environment) to check the installed versions of Nginx and PHP as well as the installed version of Symfony, where you should see an output like this:
 
 ```json
 {
     "web_server_version": "nginx/1.12.2",
-    "php_version": "7.0.27"
+    "php_version": "7.0.27",
+    "symfony_version": "3.4.4"
 }
 ```
 
