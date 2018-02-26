@@ -13,7 +13,7 @@ This project provides by default the following Docker Containers:
 - PHP v7.0 FPM on port 9000
 - MySQL v5.5 on port 3306 with `root` user and `password` password
 
-![Docker Containers Schema](https://github.com/DavidGarciaCat/sf34-rest/blob/master/Docker/Resources/image/docker-containers-schema.jpg)
+![Docker Containers Schema](Docker/Resources/image/docker-containers-schema.jpg)
 
 ## Download and install
 
