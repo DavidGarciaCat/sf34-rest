@@ -89,6 +89,15 @@ Given Nginx runs on port 80, you can browse your own local environment (http://l
 }
 ```
 
+Or you can browse the Environment endpoint (http://localhost/api/environment) to check the installed versions of Nginx and PHP, where you should see an output like this:
+
+```json
+{
+    "web_server_version": "nginx/1.12.2",
+    "php_version": "7.0.27"
+}
+```
+
 ## How To Remove Docker Images, Containers, and Volumes
 
 Docker provides a single command that will clean up any resources — images, containers, volumes, and networks — that are dangling (not associated with a container):
