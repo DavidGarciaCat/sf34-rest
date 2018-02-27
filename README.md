@@ -6,6 +6,8 @@ Please note this project was built just for testing and educational purposes.
 
 Download and install Docker: https://www.docker.com/community-edition
 
+Download and install Git (optional): https://git-scm.com/downloads
+
 ### Docker schema
 
 This project provides by default the following Docker Containers:
@@ -17,7 +19,9 @@ This project provides by default the following Docker Containers:
 
 ## Download and install
 
-Clone this Git repository:
+Just download this repository through the `Clone or download` green button, just above the file/folder panel.
+
+In case you have installed Git, you can proceed to clone this repository through the following command:
 
 ```bash
 git clone git@github.com:DavidGarciaCat/sf34-rest.git
